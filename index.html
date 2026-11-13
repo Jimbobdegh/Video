@@ -18,9 +18,8 @@
     article { overflow: hidden; border: 1px solid #ffffff20; border-radius: 1rem; background: #1a1e2a; }
     video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #080a0f; }
     h2 { margin: 0; padding: 1rem 1.1rem 1.2rem; font-size: 1.1rem; }
-    .empty { padding: 1.25rem; border: 1px dashed #ffffff35; border-radius: .8rem; color: #c2c7d4; }
     footer { padding-block: 1.5rem 2rem; border-top: 1px solid #ffffff18; font-size: .9rem; line-height: 1.6; }
-    code { padding: .12rem .35rem; border-radius: .3rem; background: #ffffff12; color: #e4e7ff; }
+    @media (max-width: 520px) { .videos { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -30,18 +29,26 @@
   </header>
   <main>
     <section class="videos" aria-label="Videos">
-      <!-- Add one video card for each MP4 you upload. See videos/README.md for instructions. -->
-      <p class="empty">Add MP4 files to the <code>videos/</code> folder, then add a video card here. Instructions are in <code>videos/README.md</code>.</p>
-
-      <!-- Example card: remove the comment markers and change the title and filename.
-      <article>
-        <video controls playsinline preload="metadata">
-          <source src="videos/my-video.mp4" type="video/mp4">
-          Your browser does not support HTML video.
-        </video>
-        <h2>My Video</h2>
-      </article>
-      -->
+      <article><video controls playsinline preload="metadata"><source src="videos/1.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 1</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/2.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 2</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/3.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 3</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/4.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 4</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/5.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 5</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/6.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 6</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/7.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 7</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/8.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 8</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/9.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 9</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/10.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 10</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/11.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 11</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/12.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 12</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/13.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 13</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/14.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 14</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/15.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 15</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/16.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 16</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/17.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 17</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/18.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 18</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/19.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 19</h2></article>
+      <article><video controls playsinline preload="metadata"><source src="videos/20.mp4" type="video/mp4">Your browser does not support HTML video.</video><h2>Home Memory 20</h2></article>
     </section>
   </main>
   <footer>Videos are stored in this repository. For large collections or large files, consider dedicated video hosting.</footer>
